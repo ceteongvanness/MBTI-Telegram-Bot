@@ -1,0 +1,49 @@
+{
+  "name": "mbti-telegram-bot",
+  "version": "1.0.0",
+  "description": "MBTI personality test Telegram bot built with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "postbuild": "echo 'Build completed successfully!'",
+    "test": "echo 'No tests specified yet'"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "mbti",
+    "personality",
+    "test",
+    "typescript",
+    "psychology"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@types/node-telegram-bot-api": "^0.64.0",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mbti-telegram-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/mbti-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/mbti-telegram-bot#readme"
+}
