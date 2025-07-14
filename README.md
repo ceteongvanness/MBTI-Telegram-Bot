@@ -32,7 +32,7 @@ A TypeScript-based Telegram bot that helps users discover their Myers-Briggs Typ
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/ceteongvanness/mbti-telegram-bot.git
    cd mbti-telegram-bot
    ```
 
